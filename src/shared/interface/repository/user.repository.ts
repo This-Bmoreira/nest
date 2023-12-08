@@ -1,5 +1,5 @@
 import { UserEntity } from '../../../domain/user/user.entity'
-import { SearchableRepositoryInterface } from './in-memory-searchable.repository'
+import { SearchableRepositoryInterface } from './searchable.repository'
 
 export interface UserRepository
   extends SearchableRepositoryInterface<UserEntity, any, any> {

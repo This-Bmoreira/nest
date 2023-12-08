@@ -1,4 +1,4 @@
-import { SearchableRepositoryInterface } from '../../shared/interface/repository/in-memory-searchable.repository'
+import { SearchableRepositoryInterface } from '../../shared/interface/repository/searchable.repository'
 import { Entity } from '../entity/entity'
 import { InMemoryRepository } from './in-memory-repository'
 
